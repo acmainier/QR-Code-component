@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* ==========================================================================
+   Main Stylesheet
+   Author: Anne-Cecile
+   Description: Styles for the main site layout QR Code component
+   ========================================================================== */
+
+:root {
+  --color-primary: #3498db;
+  --color-text: #333;
+  --font-body: "Inter", sans-serif;
+  --spacing-md: 1rem;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
